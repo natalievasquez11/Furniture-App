@@ -1,0 +1,45 @@
+body {
+    padding: 20px;
+    font-family: 'Delius Unicase', cursive;
+    background: black;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to top, #e65c00,  #F9D423);  Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, darkblue, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    height: 100%;
+}
+
+img {
+    width: 225px;
+    height: 200px;
+    clear: both;
+    display: block;
+    margin: auto;
+}
+
+div {
+    margin: auto;
+    /* width: 50%; */
+    text-align: center
+}
+
+.title {
+    color:black;
+}
+
+#furniture {
+    width: 50%;
+    margin: 0px;
+    float: left;
+}
+
+#delivered{
+    width: 50%;
+    margin: 0px;
+    float: right;
+}
+
+#form {
+    clear: both;
+    display: block;
+    margin: auto;
+}
